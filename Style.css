@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body{
+    background-image:url("https://scontent-lax3-2.xx.fbcdn.net/v/t1.0-9/61796690_1204471693043171_7140213212103835648_n.jpg?_nc_cat=102&_nc_oc=AQnkTHcZ5bcxnYKSZpX22eZZPn2KMPe7aZMZpWcg87ktRg88SNRdGcmWhGYndkh8rdc&_nc_ht=scontent-lax3-2.xx&oh=3c771b3ce8c91afedc39e5a0fb489613&oe=5E4CF444")
+}
+
+*{
+	font-family: 'Baskervville', serif;
+}
+#Contenedor{
+	width: 1220px;
+    height: 1350px;
+    margin: auto;
+    margin-top:10px;
+    padding: 0px;
+    background-color: white;
+    opacity: .98;
+    overflow: hidden;
+    
+}
+
+div #Menu:hover{
+  
+}
+
+div.contenedor-general{
+   
+}
+
+#Encabezado{
+	width: 1200px;
+	height: 250px;
+	margin:auto;
+	background-color: rgb(63,111,118);
+	text-align: center;
+	font-size: xx-large;
+	box-shadow: 2px 2px 10px rgb(10, 9, 9);
+	letter-spacing: normal;
+	word-spacing: normal;
+}
+
+#Navegacion{
+
+    width: 1190px;
+    height: 50px;
+    margin:auto;
+    padding-left: 6px;
+    padding-right: 6px;
+    background-color: rgb(233,182,169);
+    box-shadow: 2px 2px 10px rgb(10, 9, 9);
+}
+ul,li{
+	display: inline-block;
+	font-size: large;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	padding: 0px;
+	font-family: "Courier New", Courier, monospace;
+}
+
+#Contenido{
+    float: right;
+    width: 1190px;
+    height: 860px;
+    margin:10px;
+    box-shadow: 2px 2px 10px rgb(10, 9, 9);
+    background:   rgb(221, 163, 46);
+	 padding-left: 6px;
+    padding-right: 6px;
+}
+
+#Noticia{
+	
+	padding: right;
+	opacity: .98;
+	margin:auto;
+}
+
+#Noticia2{
+	
+	padding: right;
+	opacity: .98;
+	margin:auto;
+}
+
+#Noticia3{
+	
+	padding: right;
+	opacity: .98;
+	margin:auto;
+}
+#Menu{
+   position: fixed;
+	Width: 10px;
+	height: 200px;
+	margin: auto;
+    box-align: center;
+    background-color:white;
+    box-shadow: 2px 2px 10px rgb(10, 9, 9);
+    float: left;
+    overflow: hidden;
+}
+
+
+
+
+#Pie{
+
+    height: 50px;
+	width:1190px;
+	margin: 10px;
+	background-color: lightcoral;
+    clear: both;
+    float: right;
+    box-shadow: 2px 2px 10px rgb(10, 9, 9);
+}
